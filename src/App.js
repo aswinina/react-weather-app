@@ -1,19 +1,40 @@
 import React from "react";
-import Weather from "./weather";
-import './App.css';
+import Weather from "./Weather";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div classNmae="container">
-        <Weather defaultCity="New York"/>
-      <footer>
-        This project was coded by{" "}<a href="https://aswinisureddy-profile.netlify.app/" target="_blank" rel=" " >Aswini Sureddy </a> {" "} and is {""}
-      <a href="https://github.com/aswinina/react-weather-app" target="_blank" rel=" ">open sourced on GitHub</a>
-      </footer>
+      <div className="container">
+        <Weather defaultCity="New York" />
+
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.delac.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Aswini Sureddy
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/aswinina/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://voluble-monstera-71d18b.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
 }
-
- 
